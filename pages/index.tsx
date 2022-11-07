@@ -2,7 +2,7 @@ import { GetServerSideProps } from "next";
 import * as puppeteer from "puppeteer";
 import { useState } from "react";
 import Image from "next/image";
-import { CODES } from "./codes";
+import { CODES } from "../src/codes";
 
 // @ts-ignore
 export default function Home({ answer, fl }) {

@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { CODES } from '../../codes'
+import { CODES } from '../../../src/codes'
 
 export default function handler(
   req: NextApiRequest,
